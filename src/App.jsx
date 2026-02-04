@@ -83,7 +83,7 @@ function Hold() {
     setplaier1(0);
     setplaier2(0);
     setCount(0);
-  } else if (newPlayerTwo >= 10) {
+  } else if (newPlayerTwo >= 100) {
     alert("Player 2 winner");
     setplaier1(0);
     setplaier2(0);
