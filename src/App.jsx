@@ -119,14 +119,16 @@ function Hold() {
             <span class="label">CURRENT</span>
             <span class="current-score">{!plaier ? count : 0}</span>
           </div>
-        </section>
+        </section >
+
+        <div  className="button" >
         <button onClick={Roll} className="btn">
        roll
         </button>
    <button onClick={Hold} className="btn1">
          hold
         </button>
-
+       </div>
 
 
       </div>
